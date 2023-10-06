@@ -5,8 +5,10 @@ const Number = ({ value, onClick }) => {
       style={{
         padding: 10,
         border: "1px solid black",
-        width: 60,
+        width: "auto",
       }}
+
+      onClick={()=>onClick(value)}
     >
       {value}
     </div>
