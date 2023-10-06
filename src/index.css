@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.numbers{
+  grid-template-columns: 1fr 1fr 1fr;
+  display:grid; 
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
+.number-zero{
+  grid-column: 1/2;
+}
+
+.calculator-buttons{
+  display:flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.operator-buttons{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4px;
+  row-gap: 4px;
+}
+
